@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "honeycode-apis"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ocgqe1mdotws"
+s3_prefix = "honeycode-apis"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
