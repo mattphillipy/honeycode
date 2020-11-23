@@ -17,7 +17,7 @@ def lambda_handler(event,context):
             screenId=screen_id,
             screenAutomationId=screen_automation_id,
             variables={
-                "fruit_key content": {"rawValue": "papayagr"}
+                "fruit_key content": {"rawValue": "berries_huckle"}
             }
                     
             )
@@ -25,7 +25,7 @@ def lambda_handler(event,context):
             
     workbook_id = '4c59292c-ed6e-4f48-831a-baa0f01979a5' 
     app_id = '94894a98-1da9-4de1-a064-3e137b1fe184' 
-    screen_id = 'c129fe53-9d63-4e05-ad87-fecd61e8ea89' 
+    screen_id = '6deb17a5-d4b3-492c-aacf-4de94fc8084b' 
     screen_automation_id = 'f6934cd4-3b85-4089-91d0-954566188992'
     
     
